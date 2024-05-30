@@ -1,0 +1,105 @@
+.login-main {
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    /* Add or modify background properties */
+    background-color: #0e2a47;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Add or modify other background properties as needed */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    width: 650px;
+    border-radius: 20px;
+    background: #fff;
+    padding-bottom: 30px;
+    /* Modify container styles as required */
+  }
+  
+  /* Adjust other styles like header, inputs, buttons, etc. */
+  
+  .text {
+    color: #404ad8;
+    font-size: 55px;
+    padding-top: 2rem;
+    font-weight: 700;
+    /* Modify text styles */
+  }
+  
+  .underline {
+    width: 69px;
+    height: 6px;
+    background: #6c74e5;
+    border-radius: 9px;
+    /* Modify underline styles */
+  }
+  
+  .inputs {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    /* Adjust input container styles */
+  }
+  
+  /* Adjust input field styles, such as background, size, etc. */
+  
+  .input img {
+    margin: 0px 30px;
+    /* Modify icon styles */
+  }
+  
+  .input input {
+    padding-left: 2rem;
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+    /* Modify input field styles */
+  }
+  
+  .submit-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px auto;
+    /* Adjust submit container styles */
+  }
+  
+  .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #666ed9;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    /* Modify submit button styles */
+  }
+  
+  .gray {
+    background: #eaeaea;
+    color: #676767;
+    /* Modify gray button styles */
+  }
+  
+  .register-link {
+    display: flex;
+    justify-content: center;
+    color: #666ed9;
+    font-weight: 600;
+    /* Modify register link styles */
+  }
+  

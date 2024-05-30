@@ -1,0 +1,47 @@
+/* SellerDash component CSS */
+.seller-dash {
+  padding: 20px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M0%2c604.376C109.893%2c586.44%2c164.809%2c460.993%2c264.867%2c412.141C385.171%2c353.404%2c552.386%2c393.664%2c639.606%2c292.098C728.08%2c189.071%2c755.879%2c24.792%2c705.959%2c-101.502C656.621%2c-226.326%2c486.733%2c-244.816%2c390.429%2c-338.309C306.062%2c-420.214%2c293.301%2c-581.627%2c179.791%2c-612.313C65.915%2c-643.098%2c-27.91%2c-513.718%2c-141.565%2c-482.127C-257.706%2c-449.845%2c-399.258%2c-503.536%2c-491.36%2c-425.766C-584.436%2c-347.174%2c-607.563%2c-209.354%2c-608.868%2c-87.542C-610.085%2c26.069%2c-546.926%2c124.878%2c-498.361%2c227.594C-450.476%2c328.872%2c-416.307%2c441.174%2c-326.944%2c508.736C-234.496%2c578.631%2c-114.382%2c623.045%2c0%2c604.376' fill='%23091b2e'%3e%3c/path%3e%3cpath d='M1440 928.178C1510.866 930.672 1583.538 914.2860000000001 1640.856 872.538 1696.666 831.8879999999999 1722.809 765.053 1750.687 701.886 1778.231 639.476 1812.233 575.395 1801.748 507.988 1791.305 440.847 1739.784 390.128 1694.338 339.615 1649.6680000000001 289.964 1605.846 231.567 1540.526 217.64100000000002 1476.314 203.95100000000002 1418.535 255.07100000000003 1353.982 267.05 1279.311 280.907 1188.035 241.784 1132.318 293.392 1077.329 344.325 1090.968 434.98199999999997 1091.763 509.931 1092.463 575.889 1109.647 638.353 1136.617 698.55 1163.757 759.127 1195.099 818.656 1248.027 858.716 1303.41 900.635 1370.585 925.735 1440 928.178' fill='%23133960'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-cards {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.product-card p {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.seller-nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  font-size: 2rem;
+  color: whitesmoke;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .product-cards {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
